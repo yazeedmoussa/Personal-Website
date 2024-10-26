@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yazeed Moussa's Portfolio">
+    <title>Yazeed Moussa's Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Yazeed Moussa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Hello, I'm Yazeed Moussa</h1>
+            <p class="lead">Passionate Web Developer & Soccer Enthusiast</p>
+        </div>
+    </header>
+
+    
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <img src="images/photo1.jpeg" alt="Yazeed Moussa" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <p>Hi! I'm Yazeed Moussa, a web developer with a strong passion for creating beautiful, functional websites. I enjoy diving into code to bring creative ideas to life. Whether working on frontend or backend, I am always eager to learn new skills and improve my craft.</p>
+                    <p>When I'm not coding, you can find me on the soccer field. Soccer has always been a big part of my life, helping me stay active and build strong teamwork skills.</p>
+                </div>
+                <div class="col-md-12 text-center mt-4">
+                    <img src="images/photo2.jpg" alt="Playing Soccer" class="img-fluid rounded" style="max-width: 75%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Get in Touch</h2>
+            <p class="text-center mb-5">Feel free to reach out through the form below.</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2024 Yazeed Moussa. All Rights Reserved.</p>
+    </footer>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
